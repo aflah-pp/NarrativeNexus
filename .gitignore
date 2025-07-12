@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+.env
+.env.*
+*.sqlite3-journal
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Django static and media
+/static/
+media/*
+
+# VSCode & IDEs
+.vscode/
+.idea/
+
+# Node
+node_modules/
+dist/
+build/
+
+# React/Vite
+frontend/.cache/
+frontend/dist/
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage/test stuff
+htmlcov/
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
